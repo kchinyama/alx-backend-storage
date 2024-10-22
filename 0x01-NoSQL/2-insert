@@ -1,0 +1,9 @@
+// demo script of inserting single document into school collection
+
+use school
+
+db.my_db.insertOne(
+	{
+		name: "Holberton school"
+	}
+)
